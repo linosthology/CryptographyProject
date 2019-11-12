@@ -46,12 +46,15 @@ class Point:
         self.x = x
         self.y = y
 
+    def __repr__(self):
+        return (f"\nPoint:\nx = {self.x}\ny = {self.y}")
+
 
 def turnPositive(p, element):
     return p + element if element < 0 else element
 
 
-class ellipticCurve:
+class EllipticCurve:
 
     # constructor -> sets parameters for the curve
     def __init__(self):
@@ -73,7 +76,7 @@ class ellipticCurve:
         self.q = 1332297598440044874827085038830181364212942568457
 
         # generator
-        self.G = Point(generatorX, generatorY)
+        self.G = Point(self.generatorX, self.generatorY)
 
     # pointAddition takes two points and returns their sum
     def pointAddition(self, P: Point, Q: Point) -> Point:
@@ -119,7 +122,12 @@ class ellipticCurve:
             else:
                 sum == self.pointDuplication(sum)
 
-        return Point(None, None)
+        return sum
 
     def hasSinguarities(self):
         return True if (4*self.a**3+27*self.b**2) % self.p == 0 else False
+
+
+curve = EllipticCurve()
+tenP = curve.xTimesG(10)
+print(tenP)
