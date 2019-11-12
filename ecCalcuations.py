@@ -40,6 +40,17 @@ import extendedEuclidian
 import math
 
 
+class Point:
+
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+
+def turnPositive(p, element):
+    return p + element if element < 0 else element
+
+
 class ellipticCurve:
 
     # constructor -> sets parameters for the curve
@@ -98,14 +109,3 @@ class ellipticCurve:
 
     def hasSinguarities(self):
         return True if (4*self.a**3+27*self.b**2) % self.p == 0 else False
-
-
-class Point:
-
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
-
-
-def turnPositive(p, element):
-    return p + element if element < 0 else element
