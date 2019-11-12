@@ -107,5 +107,19 @@ class ellipticCurve:
 
             return Point(x, y)
 
+    def xTimesG(self, times) -> Point:
+        timesInBinary = (bin(times))[2:]
+        sum = self.G
+        for digit in timesInBinary:
+            if digit == 1:
+                if sum == self.G:
+                    sum = self.pointDuplication(sum)
+                else:
+                    sum = self.pointAddition(sum, self.G)
+            else:
+                sum == self.pointDuplication(sum)
+
+        return Point(None, None)
+
     def hasSinguarities(self):
         return True if (4*self.a**3+27*self.b**2) % self.p == 0 else False
