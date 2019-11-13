@@ -82,13 +82,16 @@ class EllipticCurve:
     def pointAddition(self, P: Point, Q: Point) -> Point:
         # check whether addition is possible
         if P.x == Q.x:
+
             return Point(None, None)
+
         else:
             # perform the addition
             divident = Q.y-P.y % self.p
             diviser = Q.x-P.x % self.p
             inverse = extendedEuclidian.getInverse(self.p, diviser)
             gradient = divident*inverse % self.p
+
             x = turnPositive(self.p, (gradient ** 2 - P.x - Q.x) % self.p)
             y = turnPositive(self.p, ((gradient*(P.x-x)-P.y) % self.p))
 
@@ -97,12 +100,15 @@ class EllipticCurve:
     # pointDuplication takes the point it has to duplicate and computes the duplication on instantiation
     def pointDuplication(self, P: Point) -> Point:
         if P.y == 0:
+
             return Point(None, None)
+
         else:
             divident = (3*(P.x**2) + self.a) % self.p
             diviser = 2 * P.y % self.p
             inverse = extendedEuclidian.getInverse(self.p, diviser)
             gradient = divident*inverse % self.p
+
             x = turnPositive(
                 self.p, (gradient ** 2 - P.x - P.x) % self.p)
             y = turnPositive(
@@ -111,17 +117,24 @@ class EllipticCurve:
             return Point(x, y)
 
     def xTimesG(self, times) -> Point:
+        if times == 1:
+            return self.G
+
         timesInBinary = (bin(times))[2:]
         sum = self.G
+
+        print(timesInBinary)
         for digit in timesInBinary:
+            # print(sum, "\n\n", digit)
             if digit == 1:
                 if sum == self.G:
                     sum = self.pointDuplication(sum)
                 else:
+                    print("inner", sum)
                     sum = self.pointAddition(sum, self.G)
             else:
-                sum == self.pointDuplication(sum)
-
+                sum = self.pointDuplication(sum)
+            print("outer", sum)
         return sum
 
     def hasSinguarities(self):
@@ -129,5 +142,6 @@ class EllipticCurve:
 
 
 curve = EllipticCurve()
-tenP = curve.xTimesG(10)
-print(tenP)
+print(curve.xTimesG(1))
+print(curve.xTimesG(2))
+print(curve.xTimesG(3))
