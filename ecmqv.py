@@ -43,8 +43,13 @@ class ECMQV:
 
         d = self.curve.xTimesPoint(
             int(2**n), self.curve.xTimesG(int(x % 2**n)))
-        d = self.curve.xTimesPoint(
-            2**n, self.curve.xTimesG(int(y % 2**n)))
+        e = self.curve.xTimesPoint(
+            int(2**n), self.curve.xTimesG(int(y % 2**n)))
+
+        # -----------------------------
+        # d and e are points
+        # need to fix sigma
+        # -----------------------------
 
         # Alice
         sigmaA = self.curve.xTimesPoint(
