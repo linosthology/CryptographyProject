@@ -41,8 +41,10 @@ class ECMQV:
         # n = bitlength of q divided by 2
         n = (len(bin(self.curve.q)[2:]))/2
 
-        d = self.curve.xTimesPoint(2**n, self.curve.xTimesG(x % 2**n))
-        d = self.curve.xTimesPoint(2**n, self.curve.xTimesG(y % 2**n))
+        d = self.curve.xTimesPoint(
+            int(2**n), self.curve.xTimesG(int(x % 2**n)))
+        d = self.curve.xTimesPoint(
+            2**n, self.curve.xTimesG(int(y % 2**n)))
 
         # Alice
         sigmaA = self.curve.xTimesPoint(
@@ -52,9 +54,9 @@ class ECMQV:
         sigmaB = self.curve.xTimesPoint(
             (y+e*b), self.curve.pointAddition(self.curve.xTimesPoint(d, A), X))
 
-        print(sigmaB)
         print(sigmaA)
-        print(sigmaB == sigmaA)
+        print(sigmaB)
+        print(sigmaA == sigmaB)
 
 
 ecmqv = ECMQV()
