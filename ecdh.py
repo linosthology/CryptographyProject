@@ -1,7 +1,7 @@
 # Ellipticself.curve Diffie Hellman
 
-import random
-import ecCalcuations
+from random import randrange
+from ecCalcuations import EllipticCurve
 
 
 class ECDH:

@@ -1,5 +1,5 @@
-import time
-import ecdh
+from time import time
+from ecdh import ECDH
 
 
 def timingComparison(n):
