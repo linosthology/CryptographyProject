@@ -123,25 +123,15 @@ class EllipticCurve:
         timesInBinary = (bin(times))[2:]
         sum = self.G
 
-        print(timesInBinary)
         for digit in timesInBinary:
-            # print(sum, "\n\n", digit)
-            if digit == 1:
+            if digit == "1":
                 if sum == self.G:
                     sum = self.pointDuplication(sum)
                 else:
-                    print("inner", sum)
                     sum = self.pointAddition(sum, self.G)
             else:
                 sum = self.pointDuplication(sum)
-            print("outer", sum)
         return sum
 
     def hasSinguarities(self):
         return True if (4*self.a**3+27*self.b**2) % self.p == 0 else False
-
-
-curve = EllipticCurve()
-print(curve.xTimesG(1))
-print(curve.xTimesG(2))
-print(curve.xTimesG(3))
