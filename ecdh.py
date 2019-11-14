@@ -1,5 +1,3 @@
-# Ellipticself.curve Diffie Hellman
-
 from random import randrange
 from ecCalcuations import EllipticCurve
 
@@ -21,5 +19,7 @@ class ECDH:
         kA = self.curve.xTimesPoint(a, B)
         kB = self.curve.xTimesPoint(b, A)
 
-        print("\n\na: ", a, "\n\nA: ", A, "\n\nb: ", b,
-              "\n\nB: ", B, "\n\nkey Alice: ", kA, "\n\nkey Bob: ", kB)
+        output = "\n\na: ", a, "\n\nA: ", A, "\n\nb: ", b,
+        "\n\nB: ", B, "\n\nkey Alice: ", kA, "\n\nkey Bob: ", kB
+
+        return (output, a, A, b, B, kA)

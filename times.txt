@@ -4,10 +4,65 @@ for 100 computations it took:
 
 timeECDH:
   totalTime:
-      in seconds:	7.584000110626221
-      in minutes:	0.12640000184377034
+      in seconds:	7.466997861862183
+      in minutes:	0.12444996436436971
   per addition:
-      miliseconds:	75.8400011062622
+      miliseconds:	74.66997861862183
+
+-----------------------------------------------
+
+for 119 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	8.949999332427979
+      in minutes:	0.14916665554046632
+  per addition:
+      miliseconds:	75.21007842376453
+
+-----------------------------------------------
+
+for 138 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	10.443000555038452
+      in minutes:	0.17405000925064087
+  per addition:
+      miliseconds:	75.67391706549603
+
+-----------------------------------------------
+
+for 157 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	12.130999326705933
+      in minutes:	0.20218332211176554
+  per addition:
+      miliseconds:	77.26751163506964
+
+-----------------------------------------------
+
+for 176 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	13.462999105453491
+      in minutes:	0.22438331842422485
+  per addition:
+      miliseconds:	76.49431309916756
+
+-----------------------------------------------
+
+for 195 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	14.761999368667603
+      in minutes:	0.24603332281112672
+  per addition:
+      miliseconds:	75.70256086496207
 
 -----------------------------------------------
 
@@ -15,10 +70,87 @@ for 101 computations it took:
 
 timeECDH:
   totalTime:
-      in seconds:	7.549998760223389
-      in minutes:	0.1258333126703898
+      in seconds:	7.58299994468689
+      in minutes:	0.12638333241144817
   per addition:
-      miliseconds:	74.7524629725088
+      miliseconds:	75.07920737313752
+
+-----------------------------------------------
+
+for 214 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	16.308998107910156
+      in minutes:	0.27181663513183596
+  per addition:
+      miliseconds:	76.21027153229045
+
+-----------------------------------------------
+
+for 233 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	17.667999744415283
+      in minutes:	0.2944666624069214
+  per addition:
+      miliseconds:	75.8283250833274
+
+-----------------------------------------------
+
+for 120 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	8.955998659133911
+      in minutes:	0.14926664431889852
+  per addition:
+      miliseconds:	74.63332215944926
+
+-----------------------------------------------
+
+for 252 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	19.054000854492188
+      in minutes:	0.3175666809082031
+  per addition:
+      miliseconds:	75.61111450195312
+
+-----------------------------------------------
+
+for 271 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	20.352999210357666
+      in minutes:	0.3392166535059611
+  per addition:
+      miliseconds:	75.10331811940098
+
+-----------------------------------------------
+
+for 139 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	10.201001167297363
+      in minutes:	0.1700166861216227
+  per addition:
+      miliseconds:	73.38849760645586
+
+-----------------------------------------------
+
+for 290 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	21.986998319625854
+      in minutes:	0.3664499719937642
+  per addition:
+      miliseconds:	75.81723558491673
 
 -----------------------------------------------
 
@@ -26,10 +158,65 @@ for 102 computations it took:
 
 timeECDH:
   totalTime:
-      in seconds:	7.906001567840576
-      in minutes:	0.13176669279734293
+      in seconds:	7.5059990882873535
+      in minutes:	0.12509998480478923
   per addition:
-      miliseconds:	77.50981929255467
+      miliseconds:	73.58822635575838
+
+-----------------------------------------------
+
+for 309 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	23.546999216079712
+      in minutes:	0.3924499869346619
+  per addition:
+      miliseconds:	76.20388095818677
+
+-----------------------------------------------
+
+for 158 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	12.090000629425049
+      in minutes:	0.2015000104904175
+  per addition:
+      miliseconds:	76.51899132547499
+
+-----------------------------------------------
+
+for 177 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	13.25100040435791
+      in minutes:	0.2208500067392985
+  per addition:
+      miliseconds:	74.86440906416898
+
+-----------------------------------------------
+
+for 121 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	9.05299973487854
+      in minutes:	0.15088332891464235
+  per addition:
+      miliseconds:	74.81817962709538
+
+-----------------------------------------------
+
+for 196 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	14.842998743057251
+      in minutes:	0.2473833123842875
+  per addition:
+      miliseconds:	75.72958542376149
 
 -----------------------------------------------
 
@@ -37,10 +224,76 @@ for 103 computations it took:
 
 timeECDH:
   totalTime:
-      in seconds:	7.701000452041626
-      in minutes:	0.1283500075340271
+      in seconds:	7.712998390197754
+      in minutes:	0.12854997316996256
   per addition:
-      miliseconds:	74.76699468001578
+      miliseconds:	74.88347951648305
+
+-----------------------------------------------
+
+for 140 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	10.599998950958252
+      in minutes:	0.17666664918263753
+  per addition:
+      miliseconds:	75.71427822113037
+
+-----------------------------------------------
+
+for 215 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	16.02000069618225
+      in minutes:	0.2670000116030375
+  per addition:
+      miliseconds:	74.51163114503373
+
+-----------------------------------------------
+
+for 234 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	17.38999915122986
+      in minutes:	0.2898333191871643
+  per addition:
+      miliseconds:	74.3162356890165
+
+-----------------------------------------------
+
+for 122 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	9.135001420974731
+      in minutes:	0.15225002368291218
+  per addition:
+      miliseconds:	74.87706082766174
+
+-----------------------------------------------
+
+for 159 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	11.966000080108643
+      in minutes:	0.19943333466847737
+  per addition:
+      miliseconds:	75.25786213904807
+
+-----------------------------------------------
+
+for 253 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	19.028998374938965
+      in minutes:	0.3171499729156494
+  per addition:
+      miliseconds:	75.21343231201172
 
 -----------------------------------------------
 
@@ -48,10 +301,76 @@ for 104 computations it took:
 
 timeECDH:
   totalTime:
-      in seconds:	7.649998426437378
-      in minutes:	0.1274999737739563
+      in seconds:	7.82200026512146
+      in minutes:	0.13036667108535765
   per addition:
-      miliseconds:	73.55767717728249
+      miliseconds:	75.21154101078326
+
+-----------------------------------------------
+
+for 178 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	13.945999383926392
+      in minutes:	0.23243332306543987
+  per addition:
+      miliseconds:	78.34831114565388
+
+-----------------------------------------------
+
+for 272 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	21.105000734329224
+      in minutes:	0.3517500122388204
+  per addition:
+      miliseconds:	77.59191446444568
+
+-----------------------------------------------
+
+for 141 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	11.018999099731445
+      in minutes:	0.1836499849955241
+  per addition:
+      miliseconds:	78.1489297853294
+
+-----------------------------------------------
+
+for 291 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	22.632999181747437
+      in minutes:	0.37721665302912394
+  per addition:
+      miliseconds:	77.77662949054103
+
+-----------------------------------------------
+
+for 197 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	15.383997440338135
+      in minutes:	0.2563999573389689
+  per addition:
+      miliseconds:	78.0913575651682
+
+-----------------------------------------------
+
+for 123 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	9.809998512268066
+      in minutes:	0.16349997520446777
+  per addition:
+      miliseconds:	79.75608546559404
 
 -----------------------------------------------
 
@@ -59,10 +378,76 @@ for 105 computations it took:
 
 timeECDH:
   totalTime:
-      in seconds:	7.7529988288879395
-      in minutes:	0.12921664714813233
+      in seconds:	8.688999652862549
+      in minutes:	0.14481666088104247
   per addition:
-      miliseconds:	73.83808408464704
+      miliseconds:	82.75237764631
+
+-----------------------------------------------
+
+for 310 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	24.226999044418335
+      in minutes:	0.40378331740697226
+  per addition:
+      miliseconds:	78.15160982070431
+
+-----------------------------------------------
+
+for 160 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	13.02400016784668
+      in minutes:	0.21706666946411132
+  per addition:
+      miliseconds:	81.40000104904175
+
+-----------------------------------------------
+
+for 216 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	17.258000135421753
+      in minutes:	0.2876333355903625
+  per addition:
+      miliseconds:	79.89814877510071
+
+-----------------------------------------------
+
+for 142 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	12.012999773025513
+      in minutes:	0.20021666288375856
+  per addition:
+      miliseconds:	84.59858995088389
+
+-----------------------------------------------
+
+for 235 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	19.542001247406006
+      in minutes:	0.3257000207901001
+  per addition:
+      miliseconds:	83.1574521166213
+
+-----------------------------------------------
+
+for 179 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	14.999999046325684
+      in minutes:	0.24999998410542806
+  per addition:
+      miliseconds:	83.79887735377477
 
 -----------------------------------------------
 
@@ -70,10 +455,65 @@ for 106 computations it took:
 
 timeECDH:
   totalTime:
-      in seconds:	7.9029998779296875
-      in minutes:	0.13171666463216145
+      in seconds:	9.054999351501465
+      in minutes:	0.15091665585835776
   per addition:
-      miliseconds:	74.55660262197819
+      miliseconds:	85.42452218397608
+
+-----------------------------------------------
+
+for 124 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	10.411000728607178
+      in minutes:	0.17351667881011962
+  per addition:
+      miliseconds:	83.95968329521918
+
+-----------------------------------------------
+
+for 254 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	20.576000452041626
+      in minutes:	0.34293334086736044
+  per addition:
+      miliseconds:	81.00787579543947
+
+-----------------------------------------------
+
+for 198 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	16.231998205184937
+      in minutes:	0.27053330341974896
+  per addition:
+      miliseconds:	81.97978891507545
+
+-----------------------------------------------
+
+for 161 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	13.290998697280884
+      in minutes:	0.2215166449546814
+  per addition:
+      miliseconds:	82.55278693963282
+
+-----------------------------------------------
+
+for 273 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	22.000999450683594
+      in minutes:	0.3666833241780599
+  per addition:
+      miliseconds:	80.58974157759557
 
 -----------------------------------------------
 
@@ -81,10 +521,65 @@ for 107 computations it took:
 
 timeECDH:
   totalTime:
-      in seconds:	8.333999872207642
-      in minutes:	0.13889999787012736
+      in seconds:	8.060999631881714
+      in minutes:	0.13434999386469523
   per addition:
-      miliseconds:	77.88784927296861
+      miliseconds:	75.33644515777303
+
+-----------------------------------------------
+
+for 143 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	10.899998664855957
+      in minutes:	0.18166664441426594
+  per addition:
+      miliseconds:	76.2237668871046
+
+-----------------------------------------------
+
+for 125 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	9.420001029968262
+      in minutes:	0.1570000171661377
+  per addition:
+      miliseconds:	75.3600082397461
+
+-----------------------------------------------
+
+for 217 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	17.33599877357483
+      in minutes:	0.2889333128929138
+  per addition:
+      miliseconds:	79.88939526993009
+
+-----------------------------------------------
+
+for 292 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	23.117998838424683
+      in minutes:	0.3852999806404114
+  per addition:
+      miliseconds:	79.17122889871467
+
+-----------------------------------------------
+
+for 180 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	13.735999345779419
+      in minutes:	0.22893332242965697
+  per addition:
+      miliseconds:	76.31110747655232
 
 -----------------------------------------------
 
@@ -92,9 +587,1945 @@ for 108 computations it took:
 
 timeECDH:
   totalTime:
-      in seconds:	8.23199987411499
-      in minutes:	0.1371999979019165
+      in seconds:	8.23900032043457
+      in minutes:	0.13731667200724285
   per addition:
-      miliseconds:	76.22222105662028
+      miliseconds:	76.2870400040238
+
+-----------------------------------------------
+
+for 311 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	24.62699818611145
+      in minutes:	0.41044996976852416
+  per addition:
+      miliseconds:	79.18648934440981
+
+-----------------------------------------------
+
+for 236 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	17.841001272201538
+      in minutes:	0.29735002120335896
+  per addition:
+      miliseconds:	75.59746301780312
+
+-----------------------------------------------
+
+for 162 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	12.22200059890747
+      in minutes:	0.2037000099817912
+  per addition:
+      miliseconds:	75.44444814140414
+
+-----------------------------------------------
+
+for 126 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	9.796000242233276
+      in minutes:	0.16326667070388795
+  per addition:
+      miliseconds:	77.74603366851807
+
+-----------------------------------------------
+
+for 199 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	14.88100004196167
+      in minutes:	0.24801666736602784
+  per addition:
+      miliseconds:	74.77889468322448
+
+-----------------------------------------------
+
+for 144 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	11.079998970031738
+      in minutes:	0.18466664950052897
+  per addition:
+      miliseconds:	76.94443729188707
+
+-----------------------------------------------
+
+for 255 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	19.329999208450317
+      in minutes:	0.32216665347417195
+  per addition:
+      miliseconds:	75.80391846451106
+
+-----------------------------------------------
+
+for 109 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	8.210000276565552
+      in minutes:	0.1368333379427592
+  per addition:
+      miliseconds:	75.32110345472984
+
+-----------------------------------------------
+
+for 181 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	14.098000049591064
+      in minutes:	0.2349666674931844
+  per addition:
+      miliseconds:	77.88950303641472
+
+-----------------------------------------------
+
+for 218 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	17.06999969482422
+      in minutes:	0.28449999491373695
+  per addition:
+      miliseconds:	78.30275089368907
+
+-----------------------------------------------
+
+for 274 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	21.141000509262085
+      in minutes:	0.3523500084877014
+  per addition:
+      miliseconds:	77.15693616519009
+
+-----------------------------------------------
+
+for 127 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	10.19399881362915
+      in minutes:	0.1698999802271525
+  per addition:
+      miliseconds:	80.26770719393032
+
+-----------------------------------------------
+
+for 163 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	12.64799976348877
+      in minutes:	0.21079999605814617
+  per addition:
+      miliseconds:	77.59509057355073
+
+-----------------------------------------------
+
+for 145 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	11.377999782562256
+      in minutes:	0.18963332970937094
+  per addition:
+      miliseconds:	78.46896401767073
+
+-----------------------------------------------
+
+for 110 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	8.684000492095947
+      in minutes:	0.14473334153493245
+  per addition:
+      miliseconds:	78.94545901905406
+
+-----------------------------------------------
+
+for 293 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	22.791998624801636
+      in minutes:	0.37986664374669393
+  per addition:
+      miliseconds:	77.78839121092707
+
+-----------------------------------------------
+
+for 237 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	18.229999780654907
+      in minutes:	0.3038333296775818
+  per addition:
+      miliseconds:	76.91983029812197
+
+-----------------------------------------------
+
+for 200 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	15.447999715805054
+      in minutes:	0.2574666619300842
+  per addition:
+      miliseconds:	77.23999857902527
+
+-----------------------------------------------
+
+for 128 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	9.683000087738037
+      in minutes:	0.16138333479563396
+  per addition:
+      miliseconds:	75.64843818545341
+
+-----------------------------------------------
+
+for 312 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	23.81100034713745
+      in minutes:	0.3968500057856242
+  per addition:
+      miliseconds:	76.31730880492772
+
+-----------------------------------------------
+
+for 182 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	13.872999906539917
+      in minutes:	0.2312166651089986
+  per addition:
+      miliseconds:	76.22527421175779
+
+-----------------------------------------------
+
+for 111 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	8.306998491287231
+      in minutes:	0.1384499748547872
+  per addition:
+      miliseconds:	74.8378242458309
+
+-----------------------------------------------
+
+for 256 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	19.744000673294067
+      in minutes:	0.32906667788823446
+  per addition:
+      miliseconds:	77.12500263005495
+
+-----------------------------------------------
+
+for 146 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	10.929998874664307
+      in minutes:	0.1821666479110718
+  per addition:
+      miliseconds:	74.8630059908514
+
+-----------------------------------------------
+
+for 164 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	12.305998802185059
+      in minutes:	0.20509998003641763
+  per addition:
+      miliseconds:	75.03657806210401
+
+-----------------------------------------------
+
+for 219 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	16.70199942588806
+      in minutes:	0.27836665709813435
+  per addition:
+      miliseconds:	76.2648375611327
+
+-----------------------------------------------
+
+for 129 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	9.318000316619873
+      in minutes:	0.1553000052769979
+  per addition:
+      miliseconds:	72.2325605939525
+
+-----------------------------------------------
+
+for 275 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	20.383999824523926
+      in minutes:	0.3397333304087321
+  per addition:
+      miliseconds:	74.12363572554155
+
+-----------------------------------------------
+
+for 112 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	7.891999959945679
+      in minutes:	0.1315333326657613
+  per addition:
+      miliseconds:	70.46428535665784
+
+-----------------------------------------------
+
+for 201 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	14.851001262664795
+      in minutes:	0.2475166877110799
+  per addition:
+      miliseconds:	73.88557842121789
+
+-----------------------------------------------
+
+for 238 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	17.653000831604004
+      in minutes:	0.2942166805267334
+  per addition:
+      miliseconds:	74.1722724016975
+
+-----------------------------------------------
+
+for 147 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	10.879999876022339
+      in minutes:	0.181333331267039
+  per addition:
+      miliseconds:	74.01360459879142
+
+-----------------------------------------------
+
+for 183 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	13.57999873161316
+      in minutes:	0.22633331219355265
+  per addition:
+      miliseconds:	74.20764334214842
+
+-----------------------------------------------
+
+for 165 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	12.384999752044678
+      in minutes:	0.20641666253407795
+  per addition:
+      miliseconds:	75.06060455784653
+
+-----------------------------------------------
+
+for 294 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	22.083000659942627
+      in minutes:	0.3680500109990438
+  per addition:
+      miliseconds:	75.112247142662
+
+-----------------------------------------------
+
+for 113 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	8.543999671936035
+      in minutes:	0.14239999453226726
+  per addition:
+      miliseconds:	75.61061656580561
+
+-----------------------------------------------
+
+for 130 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	9.875000715255737
+      in minutes:	0.1645833452542623
+  per addition:
+      miliseconds:	75.96154396350568
+
+-----------------------------------------------
+
+for 257 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	19.032999277114868
+      in minutes:	0.3172166546185811
+  per addition:
+      miliseconds:	74.05836294597225
+
+-----------------------------------------------
+
+for 220 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	16.51199960708618
+      in minutes:	0.27519999345143636
+  per addition:
+      miliseconds:	75.05454366857356
+
+-----------------------------------------------
+
+for 313 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	23.167999744415283
+      in minutes:	0.38613332907358805
+  per addition:
+      miliseconds:	74.0191685125089
+
+-----------------------------------------------
+
+for 148 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	10.63699984550476
+      in minutes:	0.17728333075841268
+  per addition:
+      miliseconds:	71.87162057773487
+
+-----------------------------------------------
+
+for 202 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	15.228999376296997
+      in minutes:	0.2538166562716166
+  per addition:
+      miliseconds:	75.39108602127226
+
+-----------------------------------------------
+
+for 114 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	8.41300082206726
+      in minutes:	0.14021668036778767
+  per addition:
+      miliseconds:	73.79825282515141
+
+-----------------------------------------------
+
+for 131 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	9.486998558044434
+      in minutes:	0.1581166426340739
+  per addition:
+      miliseconds:	72.41983632094988
+
+-----------------------------------------------
+
+for 184 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	13.532999277114868
+      in minutes:	0.22554998795191447
+  per addition:
+      miliseconds:	73.54890911475472
+
+-----------------------------------------------
+
+for 166 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	12.424999475479126
+      in minutes:	0.20708332459131876
+  per addition:
+      miliseconds:	74.84939443059714
+
+-----------------------------------------------
+
+for 276 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	20.624000549316406
+      in minutes:	0.34373334248860676
+  per addition:
+      miliseconds:	74.72463967143625
+
+-----------------------------------------------
+
+for 239 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	17.750000476837158
+      in minutes:	0.2958333412806193
+  per addition:
+      miliseconds:	74.2677844219128
+
+-----------------------------------------------
+
+for 115 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	8.529000282287598
+      in minutes:	0.1421500047047933
+  per addition:
+      miliseconds:	74.16521984597911
+
+-----------------------------------------------
+
+for 149 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	11.01599907875061
+      in minutes:	0.1835999846458435
+  per addition:
+      miliseconds:	73.93287972315845
+
+-----------------------------------------------
+
+for 221 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	16.300999641418457
+      in minutes:	0.27168332735697426
+  per addition:
+      miliseconds:	73.76017937293419
+
+-----------------------------------------------
+
+for 132 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	9.828998804092407
+      in minutes:	0.16381664673487345
+  per addition:
+      miliseconds:	74.46211215221521
+
+-----------------------------------------------
+
+for 295 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	21.924999475479126
+      in minutes:	0.3654166579246521
+  per addition:
+      miliseconds:	74.32203212026822
+
+-----------------------------------------------
+
+for 258 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	19.108002185821533
+      in minutes:	0.31846670309702557
+  per addition:
+      miliseconds:	74.06202397605246
+
+-----------------------------------------------
+
+for 203 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	15.009000778198242
+      in minutes:	0.2501500129699707
+  per addition:
+      miliseconds:	73.93596442462189
+
+-----------------------------------------------
+
+for 167 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	12.30199909210205
+      in minutes:	0.20503331820170084
+  per addition:
+      miliseconds:	73.66466522216797
+
+-----------------------------------------------
+
+for 185 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	13.619999647140503
+      in minutes:	0.22699999411900837
+  per addition:
+      miliseconds:	73.62161971427298
+
+-----------------------------------------------
+
+for 116 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	8.68199896812439
+      in minutes:	0.14469998280207316
+  per addition:
+      miliseconds:	74.8448186907275
+
+-----------------------------------------------
+
+for 150 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	11.216999053955078
+      in minutes:	0.18694998423258463
+  per addition:
+      miliseconds:	74.77999369303386
+
+-----------------------------------------------
+
+for 314 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	23.59399914741516
+      in minutes:	0.393233319123586
+  per addition:
+      miliseconds:	75.14012467329668
+
+-----------------------------------------------
+
+for 240 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	17.932000637054443
+      in minutes:	0.2988666772842407
+  per addition:
+      miliseconds:	74.71666932106018
+
+-----------------------------------------------
+
+for 133 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	10.076998710632324
+      in minutes:	0.16794997851053875
+  per addition:
+      miliseconds:	75.76690759873928
+
+-----------------------------------------------
+
+for 277 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	20.72700023651123
+      in minutes:	0.3454500039418538
+  per addition:
+      miliseconds:	74.8267156552752
+
+-----------------------------------------------
+
+for 117 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	9.51099967956543
+      in minutes:	0.1585166613260905
+  per addition:
+      miliseconds:	81.29059555184128
+
+-----------------------------------------------
+
+for 168 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	13.181998491287231
+      in minutes:	0.21969997485478718
+  per addition:
+      miliseconds:	78.46427673385256
+
+-----------------------------------------------
+
+for 222 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	17.338998794555664
+      in minutes:	0.2889833132425944
+  per addition:
+      miliseconds:	78.10359817367417
+
+-----------------------------------------------
+
+for 204 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	15.658998727798462
+      in minutes:	0.2609833121299744
+  per addition:
+      miliseconds:	76.75979768528659
+
+-----------------------------------------------
+
+for 186 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	14.36499810218811
+      in minutes:	0.2394166350364685
+  per addition:
+      miliseconds:	77.2311725924092
+
+-----------------------------------------------
+
+for 151 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	11.67099928855896
+      in minutes:	0.194516654809316
+  per addition:
+      miliseconds:	77.29138601694676
+
+-----------------------------------------------
+
+for 134 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	10.461999416351318
+      in minutes:	0.17436665693918865
+  per addition:
+      miliseconds:	78.07462251008447
+
+-----------------------------------------------
+
+for 259 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	20.045000076293945
+      in minutes:	0.3340833346048991
+  per addition:
+      miliseconds:	77.39382268839361
+
+-----------------------------------------------
+
+for 296 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	22.492998838424683
+      in minutes:	0.3748833139737447
+  per addition:
+      miliseconds:	75.98986094062393
+
+-----------------------------------------------
+
+for 118 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	8.648999452590942
+      in minutes:	0.1441499908765157
+  per addition:
+      miliseconds:	73.29660553043172
+
+-----------------------------------------------
+
+for 169 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	12.651999473571777
+      in minutes:	0.21086665789286296
+  per addition:
+      miliseconds:	74.86390221048389
+
+-----------------------------------------------
+
+for 241 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	18.757000207901
+      in minutes:	0.31261667013168337
+  per addition:
+      miliseconds:	77.82987638133196
+
+-----------------------------------------------
+
+for 135 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	10.415998697280884
+      in minutes:	0.17359997828801474
+  per addition:
+      miliseconds:	77.15554590578432
+
+-----------------------------------------------
+
+for 152 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	11.849999189376831
+      in minutes:	0.19749998648961384
+  per addition:
+      miliseconds:	77.96052098274231
+
+-----------------------------------------------
+
+for 187 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	14.356999397277832
+      in minutes:	0.23928332328796387
+  per addition:
+      miliseconds:	76.77539784640553
+
+-----------------------------------------------
+
+for 315 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	24.56299877166748
+      in minutes:	0.40938331286112467
+  per addition:
+      miliseconds:	77.97777387830946
+
+-----------------------------------------------
+
+for 223 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	17.128002166748047
+      in minutes:	0.2854667027791341
+  per addition:
+      miliseconds:	76.80718460425133
+
+-----------------------------------------------
+
+for 278 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	21.813000440597534
+      in minutes:	0.36355000734329224
+  per addition:
+      miliseconds:	78.46403036186163
+
+-----------------------------------------------
+
+for 205 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	15.880000352859497
+      in minutes:	0.2646666725476583
+  per addition:
+      miliseconds:	77.46341635541218
+
+-----------------------------------------------
+
+for 136 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	10.702998399734497
+      in minutes:	0.17838330666224161
+  per addition:
+      miliseconds:	78.6985176451066
+
+-----------------------------------------------
+
+for 170 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	13.214998483657837
+      in minutes:	0.2202499747276306
+  per addition:
+      miliseconds:	77.73528519798728
+
+-----------------------------------------------
+
+for 260 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	20.381998300552368
+      in minutes:	0.3396999716758728
+  per addition:
+      miliseconds:	78.39230115597066
+
+-----------------------------------------------
+
+for 153 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	11.926998853683472
+      in minutes:	0.19878331422805787
+  per addition:
+      miliseconds:	77.95424087374818
+
+-----------------------------------------------
+
+for 297 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	22.98499894142151
+      in minutes:	0.3830833156903585
+  per addition:
+      miliseconds:	77.39056882633506
+
+-----------------------------------------------
+
+for 188 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	14.348997116088867
+      in minutes:	0.23914995193481445
+  per addition:
+      miliseconds:	76.32445274515355
+
+-----------------------------------------------
+
+for 242 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	18.625998973846436
+      in minutes:	0.3104333162307739
+  per addition:
+      miliseconds:	76.96693790845634
+
+-----------------------------------------------
+
+for 328 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	25.41600012779236
+      in minutes:	0.42360000212987264
+  per addition:
+      miliseconds:	77.48780526765962
+
+-----------------------------------------------
+
+for 206 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	15.651999235153198
+      in minutes:	0.26086665391922
+  per addition:
+      miliseconds:	75.9805788114233
+
+-----------------------------------------------
+
+for 224 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	17.172998428344727
+      in minutes:	0.28621664047241213
+  per addition:
+      miliseconds:	76.66517155511039
+
+-----------------------------------------------
+
+for 137 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	10.367998600006104
+      in minutes:	0.17279997666676838
+  per addition:
+      miliseconds:	75.67882189785477
+
+-----------------------------------------------
+
+for 171 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	13.124999284744263
+      in minutes:	0.21874998807907103
+  per addition:
+      miliseconds:	76.7543817821302
+
+-----------------------------------------------
+
+for 279 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	21.302000522613525
+      in minutes:	0.35503334204355874
+  per addition:
+      miliseconds:	76.3512563534535
+
+-----------------------------------------------
+
+for 154 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	11.813000440597534
+      in minutes:	0.19688334067662558
+  per addition:
+      miliseconds:	76.70779506881516
+
+-----------------------------------------------
+
+for 316 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	24.19100022315979
+      in minutes:	0.4031833370526632
+  per addition:
+      miliseconds:	76.55379817455629
+
+-----------------------------------------------
+
+for 189 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	14.827001571655273
+      in minutes:	0.24711669286092122
+  per addition:
+      miliseconds:	78.44974376537182
+
+-----------------------------------------------
+
+for 261 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	20.184000253677368
+      in minutes:	0.33640000422795613
+  per addition:
+      miliseconds:	77.33333430527728
+
+-----------------------------------------------
+
+for 207 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	16.405999183654785
+      in minutes:	0.2734333197275797
+  per addition:
+      miliseconds:	79.2560347036463
+
+-----------------------------------------------
+
+for 243 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	19.147000312805176
+      in minutes:	0.31911667188008624
+  per addition:
+      miliseconds:	78.79423997039167
+
+-----------------------------------------------
+
+for 155 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	12.379000902175903
+      in minutes:	0.20631668170293171
+  per addition:
+      miliseconds:	79.86452194952196
+
+-----------------------------------------------
+
+for 172 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	13.480000019073486
+      in minutes:	0.22466666698455812
+  per addition:
+      miliseconds:	78.37209313414819
+
+-----------------------------------------------
+
+for 225 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	17.7909996509552
+      in minutes:	0.2965166608492533
+  per addition:
+      miliseconds:	79.07110955980089
+
+-----------------------------------------------
+
+for 298 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	23.505000591278076
+      in minutes:	0.3917500098546346
+  per addition:
+      miliseconds:	78.87584091032912
+
+-----------------------------------------------
+
+for 329 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	26.150999784469604
+      in minutes:	0.43584999640782673
+  per addition:
+      miliseconds:	79.48632153334226
+
+-----------------------------------------------
+
+for 190 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	15.097999334335327
+      in minutes:	0.2516333222389221
+  per addition:
+      miliseconds:	79.46315439123856
+
+-----------------------------------------------
+
+for 280 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	21.888999462127686
+      in minutes:	0.36481665770212807
+  per addition:
+      miliseconds:	78.17499807902745
+
+-----------------------------------------------
+
+for 347 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	27.155999422073364
+      in minutes:	0.4525999903678894
+  per addition:
+      miliseconds:	78.25936432874168
+
+-----------------------------------------------
+
+for 156 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	12.178999900817871
+      in minutes:	0.20298333168029786
+  per addition:
+      miliseconds:	78.07051218472995
+
+-----------------------------------------------
+
+for 173 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	13.599998712539673
+      in minutes:	0.22666664520899454
+  per addition:
+      miliseconds:	78.61270932103858
+
+-----------------------------------------------
+
+for 317 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	24.84299898147583
+      in minutes:	0.41404998302459717
+  per addition:
+      miliseconds:	78.36908196049158
+
+-----------------------------------------------
+
+for 208 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	16.44599986076355
+      in minutes:	0.27409999767939247
+  per addition:
+      miliseconds:	79.06730702290169
+
+-----------------------------------------------
+
+for 262 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	20.259000539779663
+      in minutes:	0.33765000899632774
+  per addition:
+      miliseconds:	77.32442954114376
+
+-----------------------------------------------
+
+for 244 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	19.280999660491943
+      in minutes:	0.3213499943415324
+  per addition:
+      miliseconds:	79.02049041185224
+
+-----------------------------------------------
+
+for 226 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	17.478999376296997
+      in minutes:	0.2913166562716166
+  per addition:
+      miliseconds:	77.34070520485396
+
+-----------------------------------------------
+
+for 191 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	14.29699993133545
+      in minutes:	0.23828333218892414
+  per addition:
+      miliseconds:	74.85340278186099
+
+-----------------------------------------------
+
+for 299 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	23.200997829437256
+      in minutes:	0.3866832971572876
+  per addition:
+      miliseconds:	77.59531046634534
+
+-----------------------------------------------
+
+for 174 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	13.12399935722351
+      in minutes:	0.21873332262039186
+  per addition:
+      miliseconds:	75.42528366220408
+
+-----------------------------------------------
+
+for 209 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	15.600000619888306
+      in minutes:	0.26000001033147174
+  per addition:
+      miliseconds:	74.6411512913316
+
+-----------------------------------------------
+
+for 281 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	21.009000062942505
+      in minutes:	0.35015000104904176
+  per addition:
+      miliseconds:	74.76512477915483
+
+-----------------------------------------------
+
+for 330 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	24.90399956703186
+      in minutes:	0.415066659450531
+  per addition:
+      miliseconds:	75.466665354642
+
+-----------------------------------------------
+
+for 263 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	19.411999464035034
+      in minutes:	0.3235333244005839
+  per addition:
+      miliseconds:	73.80988389366932
+
+-----------------------------------------------
+
+for 227 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	16.830997467041016
+      in minutes:	0.2805166244506836
+  per addition:
+      miliseconds:	74.14536329092958
+
+-----------------------------------------------
+
+for 245 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	18.16999840736389
+      in minutes:	0.3028333067893982
+  per addition:
+      miliseconds:	74.1632588055669
+
+-----------------------------------------------
+
+for 348 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	25.815999746322632
+      in minutes:	0.43026666243871053
+  per addition:
+      miliseconds:	74.18390731701906
+
+-----------------------------------------------
+
+for 192 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	14.006998538970947
+      in minutes:	0.23344997564951578
+  per addition:
+      miliseconds:	72.95311739047368
+
+-----------------------------------------------
+
+for 318 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	23.532999992370605
+      in minutes:	0.3922166665395101
+  per addition:
+      miliseconds:	74.00314463009624
+
+-----------------------------------------------
+
+for 366 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	27.0910005569458
+      in minutes:	0.45151667594909667
+  per addition:
+      miliseconds:	74.01912720476994
+
+-----------------------------------------------
+
+for 175 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	12.896998167037964
+      in minutes:	0.21494996945063274
+  per addition:
+      miliseconds:	73.69713238307409
+
+-----------------------------------------------
+
+for 210 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	15.531000137329102
+      in minutes:	0.2588500022888184
+  per addition:
+      miliseconds:	73.95714351109096
+
+-----------------------------------------------
+
+for 300 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	22.277998447418213
+      in minutes:	0.37129997412363686
+  per addition:
+      miliseconds:	74.25999482472739
+
+-----------------------------------------------
+
+for 282 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	21.031999588012695
+      in minutes:	0.35053332646687824
+  per addition:
+      miliseconds:	74.58155882274005
+
+-----------------------------------------------
+
+for 193 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	14.635000228881836
+      in minutes:	0.24391667048136392
+  per addition:
+      miliseconds:	75.8290167299577
+
+-----------------------------------------------
+
+for 228 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	17.20099902153015
+      in minutes:	0.28668331702550254
+  per addition:
+      miliseconds:	75.44297816460593
+
+-----------------------------------------------
+
+for 264 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	19.92200016975403
+      in minutes:	0.33203333616256714
+  per addition:
+      miliseconds:	75.46212185512888
+
+-----------------------------------------------
+
+for 246 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	18.657997846603394
+      in minutes:	0.3109666307767232
+  per addition:
+      miliseconds:	75.84551970163982
+
+-----------------------------------------------
+
+for 331 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	25.183001279830933
+      in minutes:	0.4197166879971822
+  per addition:
+      miliseconds:	76.08157486353755
+
+-----------------------------------------------
+
+for 211 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	16.423999309539795
+      in minutes:	0.27373332182566323
+  per addition:
+      miliseconds:	77.83885928691846
+
+-----------------------------------------------
+
+for 319 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	24.361000776290894
+      in minutes:	0.4060166796048482
+  per addition:
+      miliseconds:	76.36677359338837
+
+-----------------------------------------------
+
+for 349 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	26.437000274658203
+      in minutes:	0.44061667124430337
+  per addition:
+      miliseconds:	75.75071711936448
+
+-----------------------------------------------
+
+for 194 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	15.407999038696289
+      in minutes:	0.2567999839782715
+  per addition:
+      miliseconds:	79.42267545719736
+
+-----------------------------------------------
+
+for 367 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	28.437999963760376
+      in minutes:	0.47396666606267296
+  per addition:
+      miliseconds:	77.48773832087295
+
+-----------------------------------------------
+
+for 385 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	30.208998680114746
+      in minutes:	0.5034833113352458
+  per addition:
+      miliseconds:	78.46493163666169
+
+-----------------------------------------------
+
+for 229 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	18.39699935913086
+      in minutes:	0.3066166559855143
+  per addition:
+      miliseconds:	80.33624174292952
+
+-----------------------------------------------
+
+for 283 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	22.536998748779297
+      in minutes:	0.37561664581298826
+  per addition:
+      miliseconds:	79.63603798155229
+
+-----------------------------------------------
+
+for 247 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	19.476998329162598
+      in minutes:	0.32461663881937664
+  per addition:
+      miliseconds:	78.85424424762186
+
+-----------------------------------------------
+
+for 265 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	21.217000246047974
+      in minutes:	0.3536166707674662
+  per addition:
+      miliseconds:	80.06415187187915
+
+-----------------------------------------------
+
+for 212 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	16.61400032043457
+      in minutes:	0.2769000053405762
+  per addition:
+      miliseconds:	78.3679260397857
+
+-----------------------------------------------
+
+for 332 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	26.310001373291016
+      in minutes:	0.43850002288818357
+  per addition:
+      miliseconds:	79.24699208822595
+
+-----------------------------------------------
+
+for 320 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	25.264000177383423
+      in minutes:	0.42106666962305705
+  per addition:
+      miliseconds:	78.9500005543232
+
+-----------------------------------------------
+
+for 230 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	17.48400044441223
+      in minutes:	0.2914000074068705
+  per addition:
+      miliseconds:	76.01739323657492
+
+-----------------------------------------------
+
+for 350 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	27.10099744796753
+      in minutes:	0.45168329079945885
+  per addition:
+      miliseconds:	77.43142127990723
+
+-----------------------------------------------
+
+for 248 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	18.737000703811646
+      in minutes:	0.31228334506352745
+  per addition:
+      miliseconds:	75.5524221927889
+
+-----------------------------------------------
+
+for 302 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	23.208001375198364
+      in minutes:	0.38680002291997273
+  per addition:
+      miliseconds:	76.84768667284227
+
+-----------------------------------------------
+
+for 213 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	16.12000060081482
+      in minutes:	0.26866667668024696
+  per addition:
+      miliseconds:	75.68075399443578
+
+-----------------------------------------------
+
+for 284 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	21.49500012397766
+      in minutes:	0.35825000206629437
+  per addition:
+      miliseconds:	75.68662015485091
+
+-----------------------------------------------
+
+for 266 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	20.37100076675415
+      in minutes:	0.3395166794459025
+  per addition:
+      miliseconds:	76.5827096494517
+
+-----------------------------------------------
+
+for 368 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	28.11299991607666
+      in minutes:	0.46854999860127766
+  per addition:
+      miliseconds:	76.39402151107788
+
+-----------------------------------------------
+
+for 404 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	30.714999675750732
+      in minutes:	0.5119166612625122
+  per addition:
+      miliseconds:	76.02722692017508
+
+-----------------------------------------------
+
+for 386 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	29.30400013923645
+      in minutes:	0.4884000023206075
+  per addition:
+      miliseconds:	75.91709880631204
+
+-----------------------------------------------
+
+for 231 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	17.33299970626831
+      in minutes:	0.2888833284378052
+  per addition:
+      miliseconds:	75.03463076306627
+
+-----------------------------------------------
+
+for 333 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	24.505999326705933
+      in minutes:	0.40843332211176553
+  per addition:
+      miliseconds:	73.59158956968749
+
+-----------------------------------------------
+
+for 249 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	18.30400061607361
+      in minutes:	0.30506667693456013
+  per addition:
+      miliseconds:	73.51004263483377
+
+-----------------------------------------------
+
+for 321 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	23.536999940872192
+      in minutes:	0.3922833323478699
+  per addition:
+      miliseconds:	73.32398735474203
+
+-----------------------------------------------
+
+for 267 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	19.554999113082886
+      in minutes:	0.32591665188471475
+  per addition:
+      miliseconds:	73.23969705274489
+
+-----------------------------------------------
+
+for 303 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	22.41600012779236
+      in minutes:	0.37360000212987265
+  per addition:
+      miliseconds:	73.98019844155894
+
+-----------------------------------------------
+
+for 351 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	26.065999746322632
+      in minutes:	0.4344333291053772
+  per addition:
+      miliseconds:	74.26210753938071
+
+-----------------------------------------------
+
+for 285 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	21.1969997882843
+      in minutes:	0.35328332980473837
+  per addition:
+      miliseconds:	74.37543785362912
+
+-----------------------------------------------
+
+for 232 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	17.354000091552734
+      in minutes:	0.28923333485921227
+  per addition:
+      miliseconds:	74.80172453255489
+
+-----------------------------------------------
+
+for 369 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	27.362999439239502
+      in minutes:	0.4560499906539917
+  per addition:
+      miliseconds:	74.1544700250393
+
+-----------------------------------------------
+
+for 423 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	31.08799958229065
+      in minutes:	0.5181333263715108
+  per addition:
+      miliseconds:	73.49408884702281
+
+-----------------------------------------------
+
+for 387 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	28.510000228881836
+      in minutes:	0.4751666704813639
+  per addition:
+      miliseconds:	73.66925123742077
+
+-----------------------------------------------
+
+for 405 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	29.963999271392822
+      in minutes:	0.49939998785654705
+  per addition:
+      miliseconds:	73.98518338615511
+
+-----------------------------------------------
+
+for 250 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	18.65299892425537
+      in minutes:	0.3108833154042562
+  per addition:
+      miliseconds:	74.61199569702148
+
+-----------------------------------------------
+
+for 334 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	24.775998830795288
+      in minutes:	0.41293331384658816
+  per addition:
+      miliseconds:	74.17963721794997
 
 -----------------------------------------------
