@@ -4,9 +4,9 @@ for 1 computations it took:
 
 timeECDH:
   totalTime:
-      in seconds:	0.03999900817871094
-      in minutes:	0.0006666501363118489
+      in seconds:	0.04400444030761719
+      in minutes:	0.0007334073384602864
   per addition:
-      miliseconds:	39.99900817871094
+      miliseconds:	44.00444030761719
 
 -----------------------------------------------

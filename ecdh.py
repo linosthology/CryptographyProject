@@ -6,15 +6,15 @@ from ecCalcuations import EllipticCurve
 
 class ECDH:
     def __init__(self):
-        self.curve = ecCalcuations.EllipticCurve()
+        self.curve = EllipticCurve()
 
     def computeKeys(self):
         # Alice
-        a = random.randrange(1, self.curve.q)
+        a = randrange(1, self.curve.q)
         A = self.curve.xTimesG(a)
 
         # Bob
-        b = random.randrange(1, self.curve.q)
+        b = randrange(1, self.curve.q)
         B = self.curve.xTimesG(b)
 
         # K's

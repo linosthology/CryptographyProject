@@ -36,8 +36,7 @@
 
 #       h = 1
 
-import extendedEuclidian
-import math
+from extendedEuclidian import getInverse
 
 
 class Point:
@@ -89,7 +88,7 @@ class EllipticCurve:
             # perform the addition
             divident = Q.y-P.y % self.p
             diviser = Q.x-P.x % self.p
-            inverse = extendedEuclidian.getInverse(self.p, diviser)
+            inverse = getInverse(self.p, diviser)
             gradient = divident*inverse % self.p
 
             x = turnPositive(self.p, (gradient ** 2 - P.x - Q.x) % self.p)
@@ -106,7 +105,7 @@ class EllipticCurve:
         else:
             divident = (3*(P.x**2) + self.a) % self.p
             diviser = 2 * P.y % self.p
-            inverse = extendedEuclidian.getInverse(self.p, diviser)
+            inverse = getInverse(self.p, diviser)
             gradient = divident*inverse % self.p
 
             x = turnPositive(
