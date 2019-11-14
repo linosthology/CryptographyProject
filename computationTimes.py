@@ -15,7 +15,7 @@ def timingComparison(n):
         timeECDH = (time.time() - start_time)
 
     # format computation times
-    output = f"\n\nfor {n} computations it took:\n\ntimeECDH:\n{str(timeECDH)} seconds or\n{str(timeECDH/60)} minutes\nper addition: {str((timeECDH/n)*1000 )} miliseconds"
+    output = f"\n\nfor {n} computations it took:\n\ntimeECDH:\n  totalTime:\n      in seconds:\t{str(timeECDH)}\n      in minutes:\t{str(timeECDH/60)}\n  per addition:\n      miliseconds:\t{str((timeECDH/n)*1000 )}"
 
     # print out information about the computing time
     print(output)
@@ -30,8 +30,8 @@ def timingComparison(n):
     out_file.close
 
 
-out_file = open("times.txt", "a+")
-out_file.flush()
+out_file = open("times.txt", "w")
+out_file.writelines("")
 out_file.close
 for i in range(1, 2):
     timingComparison(i)
