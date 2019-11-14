@@ -1,13 +1,25 @@
-# Elliptic Curve Diffie Hellman
+# Ellipticself.curve Diffie Hellman
 
 import random
 import ecCalcuations
 
-curve = ecCalcuations.EllipticCurve()
 
-# Alice
-a = random.randrange(1, curve.q)
-# A
+class ECDH:
+    def __init__(self):
+        self.curve = ecCalcuations.EllipticCurve()
 
-# Bob
-b = random.randrange(1, curve.q)
+    def computeKeys(self):
+        # Alice
+        a = random.randrange(1, self.curve.q)
+        A = self.curve.xTimesG(a)
+
+        # Bob
+        b = random.randrange(1, self.curve.q)
+        B = self.curve.xTimesG(b)
+
+        # K's
+        kA = self.curve.xTimesPoint(a, B)
+        kB = self.curve.xTimesPoint(b, A)
+
+        print("\n\na: ", a, "\n\nA: ", A, "\n\nb: ", b,
+              "\n\nB: ", B, "\n\nkey Alice: ", kA, "\n\nkey Bob: ", kB)

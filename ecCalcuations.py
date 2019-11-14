@@ -133,5 +133,22 @@ class EllipticCurve:
                 sum = self.pointDuplication(sum)
         return sum
 
+    def xTimesPoint(self, times, P: Point) -> Point:
+        if times == 1:
+            return P
+
+        timesInBinary = (bin(times))[2:]
+        sum = P
+
+        for digit in timesInBinary:
+            if digit == "1":
+                if sum == P:
+                    sum = self.pointDuplication(sum)
+                else:
+                    sum = self.pointAddition(sum, P)
+            else:
+                sum = self.pointDuplication(sum)
+        return sum
+
     def hasSinguarities(self):
         return True if (4*self.a**3+27*self.b**2) % self.p == 0 else False
