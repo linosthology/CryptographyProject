@@ -29,9 +29,4 @@ def timingComparison(n):
         output + seperator)
     out_file.close
 
-
-out_file = open("times.txt", "w")
-out_file.writelines("")
-out_file.close
-for i in range(1, 2):
-    timingComparison(i)
+    return output

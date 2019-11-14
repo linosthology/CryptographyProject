@@ -1,12 +1,100 @@
 
 
-for 1 computations it took:
+for 100 computations it took:
 
 timeECDH:
   totalTime:
-      in seconds:	0.04400444030761719
-      in minutes:	0.0007334073384602864
+      in seconds:	7.584000110626221
+      in minutes:	0.12640000184377034
   per addition:
-      miliseconds:	44.00444030761719
+      miliseconds:	75.8400011062622
+
+-----------------------------------------------
+
+for 101 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	7.549998760223389
+      in minutes:	0.1258333126703898
+  per addition:
+      miliseconds:	74.7524629725088
+
+-----------------------------------------------
+
+for 102 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	7.906001567840576
+      in minutes:	0.13176669279734293
+  per addition:
+      miliseconds:	77.50981929255467
+
+-----------------------------------------------
+
+for 103 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	7.701000452041626
+      in minutes:	0.1283500075340271
+  per addition:
+      miliseconds:	74.76699468001578
+
+-----------------------------------------------
+
+for 104 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	7.649998426437378
+      in minutes:	0.1274999737739563
+  per addition:
+      miliseconds:	73.55767717728249
+
+-----------------------------------------------
+
+for 105 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	7.7529988288879395
+      in minutes:	0.12921664714813233
+  per addition:
+      miliseconds:	73.83808408464704
+
+-----------------------------------------------
+
+for 106 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	7.9029998779296875
+      in minutes:	0.13171666463216145
+  per addition:
+      miliseconds:	74.55660262197819
+
+-----------------------------------------------
+
+for 107 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	8.333999872207642
+      in minutes:	0.13889999787012736
+  per addition:
+      miliseconds:	77.88784927296861
+
+-----------------------------------------------
+
+for 108 computations it took:
+
+timeECDH:
+  totalTime:
+      in seconds:	8.23199987411499
+      in minutes:	0.1371999979019165
+  per addition:
+      miliseconds:	76.22222105662028
 
 -----------------------------------------------
