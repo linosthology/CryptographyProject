@@ -1,5 +1,4 @@
 import time
-import ecCalcuations
 import ecdh
 
 
@@ -15,9 +14,24 @@ def timingComparison(n):
         dh.computeKeys()
         timeECDH = (time.time() - start_time)
 
+    # format computation times
+    output = f"\n\nfor {n} computations it took:\n\ntimeECDH:\n{str(timeECDH)} seconds or\n{str(timeECDH/60)} minutes\nper addition: {str((timeECDH/n)*1000 )} miliseconds"
+
     # print out information about the computing time
-    print("\ntimeECDH:\n" + str(timeECDH) + " seconds \n" + "per addition: " +
-          str((timeECDH/n) * (10**9)) + " nanoseconds")
+    print(output)
+
+    # seperator to better see where another entry starts
+    seperator = "\n\n-----------------------------------------------"
+
+    # insert output into file
+    out_file = open("times.txt", "a+")
+    out_file.write(
+        output + seperator)
+    out_file.close
 
 
-timingComparison(1000000)
+out_file = open("times.txt", "a+")
+out_file.flush()
+out_file.close
+for i in range(1, 2):
+    timingComparison(i)
