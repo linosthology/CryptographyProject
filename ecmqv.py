@@ -39,7 +39,7 @@ class ECMQV:
         Y = self.curve.xTimesG(b)
 
         # n = bitlength of q divided by 2
-        n = (len(bin(self.curve.q)[2:]))/2
+        n = int((len(bin(self.curve.q)[2:]))/2)
 
         d = self.curve.xTimesPoint(
             int(2**n), self.curve.xTimesG(int(x % 2**n)))
