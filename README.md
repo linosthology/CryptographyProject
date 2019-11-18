@@ -14,7 +14,6 @@
         -   Zeigen das er nicht mehr möglich ist
     -   Reduktionsproblem möglich?
 - implement ECMQV
-- implement poi for ec computation
   
 ### DONE
 
@@ -22,4 +21,4 @@
 - implement ECDH
 - implement testing Environment
 - implement multithreaded testing
-  
+- implement poi for ec computation
