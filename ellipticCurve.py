@@ -120,10 +120,7 @@ class EllipticCurve:
 
         for digit in timesInBinary:
             if digit == "1":
-                if sum == P:
-                    sum = self.pointDuplication(sum)
-                else:
-                    sum = self.pointAddition(sum, P)
+                sum = self.pointAddition(sum, P)
             else:
                 sum = self.pointDuplication(sum)
         return sum
