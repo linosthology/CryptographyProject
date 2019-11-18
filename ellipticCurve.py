@@ -14,6 +14,7 @@ elliptic curve
             takes an int and a point
             returns the point times the int
 '''
+
 from extendedEuclidian import getInverse
 
 
@@ -55,7 +56,10 @@ class EllipticCurve:
         # generator
         self.G = Point(self.generatorX, self.generatorY)
 
-    # pointAddition takes two points and returns their sum
+    def __repr__(self):
+        return (f"\n\ny^2 = x^3 + {self.a}x + {self.b} over F_{self.p} with <G> =\n{self.G.__repr__()},\n\nwhere |G| = {self.q}\n\n")
+
+        # pointAddition takes two points and returns their sum
     def pointAddition(self, P: Point, Q: Point) -> Point:
         # check whether addition is possible
         if P.x == Q.x:
