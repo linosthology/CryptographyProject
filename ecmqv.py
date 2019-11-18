@@ -1,12 +1,12 @@
+from brainpoolP160r1 import BrainpoolP160r1
+from ecdh import ECDH
 from random import randrange
 from math import log
-from ecCalcuations import EllipticCurve
-from ecdh import ECDH
 
 
 class ECMQV:
     def __init__(self):
-        self.curve = EllipticCurve()
+        self.curve = BrainpoolP160r1()
         self.ecdh = ECDH()
 
     def computeKeys(self):

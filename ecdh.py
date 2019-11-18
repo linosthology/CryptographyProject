@@ -1,10 +1,10 @@
 from random import randrange
-from ecCalcuations import EllipticCurve
+from brainpoolP160r1 import BrainpoolP160r1
 
 
 class ECDH:
     def __init__(self):
-        self.curve = EllipticCurve()
+        self.curve = BrainpoolP160r1()
 
     def computeKeys(self):
         # Alice

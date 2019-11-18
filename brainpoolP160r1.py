@@ -55,8 +55,3 @@ class BrainpoolP160r1(EllipticCurve):
         self.q = 1332297598440044874827085038830181364212942568457
 
         super().__init__(self.p, self.a, self.b, self.generatorX, self.generatorY, self.q)
-
-
-if __name__ == "__main__":
-    test = BrainpoolP160r1()
-    test.xTimesG(10)
