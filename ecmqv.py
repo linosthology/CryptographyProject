@@ -11,6 +11,10 @@ class ECMQV:
 
     def computeKeys(self):
 
+        # -----------------------------
+        # static keys
+        # -----------------------------
+
         # get ECDH parameters
         ecdhParas = self.ecdh.computeKeys()
 
@@ -20,48 +24,32 @@ class ECMQV:
         A = ecdhParas[2]
 
         # Bob
-        b = ecdhParas[3]
-        B = ecdhParas[4]
+        c = ecdhParas[3]
+        C = ecdhParas[4]
 
         # sharedKey
         K = ecdhParas[5]
 
         # -----------------------------
-        # start of actual ECMQV
+        # ephemeral keys
         # -----------------------------
 
         # Alice
-        x = randrange(1, self.curve.q)
-        X = self.curve.xTimesG(a)
+        b = randrange(1, self.curve.q)
+        B = self.curve.xTimesG(a)
 
         # Bob
-        y = randrange(1, self.curve.q)
-        Y = self.curve.xTimesG(b)
+        d = randrange(1, self.curve.q)
+        D = self.curve.xTimesG(b)
 
         # n = bitlength of q divided by 2
-        n = int((len(bin(self.curve.q)[2:]))/2)
+        n = log(self.curve.q, 2)/2
 
-        d = self.curve.xTimesPoint(
-            int(2**n), self.curve.xTimesG(int(x % 2**n)))
-        e = self.curve.xTimesPoint(
-            int(2**n), self.curve.xTimesG(int(y % 2**n)))
+        x = randrange(1, self.curve.q)
 
-        # -----------------------------
-        # d and e are points
-        # need to fix sigma
-        # -----------------------------
-
-        # Alice
-        sigmaA = self.curve.xTimesPoint(
-            (x+d*a), self.curve.pointAddition(self.curve.xTimesPoint(e, B), Y))
-
-        # Bob
-        sigmaB = self.curve.xTimesPoint(
-            (y+e*b), self.curve.pointAddition(self.curve.xTimesPoint(d, A), X))
-
-        print(sigmaA)
-        print(sigmaB)
-        print(sigmaA == sigmaB)
+    def computeQ(x, staticPublicSelf, staticPublicOther, ephemeralPublicSelf, ephemeralPublicOther, staticPrivate, ephemeralPrivate):
+        # HOW POINT MOD 2^n
+        u = (self.curve.xTimesPoint(x, ephemeralPublicSelf))
 
 
 ecmqv = ECMQV()

@@ -56,7 +56,7 @@ def turnPositive(p, element):
 class EllipticCurve:
 
     # constructor -> sets parameters for the curve
-    def __init__(self):
+    def __init__(self, p, a, b, x, y, q):
 
         # mod of coordinates
         self.p = 1332297598440044874827085558802491743757193798159
@@ -151,3 +151,6 @@ class EllipticCurve:
 
     def hasSinguarities(self):
         return True if (4*self.a**3+27*self.b**2) % self.p == 0 else False
+
+
+class Brainpool(EllipticCurve):
