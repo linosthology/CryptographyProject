@@ -16,7 +16,6 @@ class ECMQV:
 
         # Alice
         a = ecdhParas[1]
-        print(a)
         A = ecdhParas[2]
 
         # Bob

@@ -12,7 +12,7 @@ def timingComparison(n):
     start_time = time()
     for x in range(0, n, 1):
         dh.computeKeys()
-        timeECDH = (time() - start_time)
+    timeECDH = (time() - start_time)
 
     # format computation times
     output = f"\n\nfor {n} computations it took:\n\ntimeECDH:\n  totalTime:\n      in seconds:\t{str(timeECDH)}\n      in minutes:\t{str(timeECDH/60)}\n  per addition:\n      miliseconds:\t{str((timeECDH/n)*1000 )}"

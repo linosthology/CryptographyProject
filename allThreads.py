@@ -3,7 +3,7 @@ from computationTimes import timingComparison
 
 if __name__ == '__main__':
 
-    t = range(100, 1000)
+    t = range(100, 200)
     intList = []
     for x in t:
         intList.append(x)
