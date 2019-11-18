@@ -46,7 +46,7 @@ class ECMQV:
 
         x = randrange(1, self.curve.q)
 
-    def computeQ(x, staticPublicSelf, staticPublicOther, ephemeralPublicSelf, ephemeralPublicOther, staticPrivate, ephemeralPrivate):
+    def computeQ(self, x, staticPublicSelf, staticPublicOther, ephemeralPublicSelf, ephemeralPublicOther, staticPrivate, ephemeralPrivate):
         # HOW POINT MOD 2^n
         u = (self.curve.xTimesPoint(x, ephemeralPublicSelf))
 
