@@ -12,7 +12,7 @@ class ECMQV:
     def computeKeys(self):
 
         # -----------------------------
-        # static keys
+        # ECDH -> Static Keys
         # -----------------------------
 
         # get ECDH parameters
@@ -30,7 +30,7 @@ class ECMQV:
         K = ecdhParas[5]
 
         # -----------------------------
-        # ephemeral keys
+        # Ephemeral Keys
         # -----------------------------
 
         # Alice
@@ -41,15 +41,38 @@ class ECMQV:
         d = randrange(1, self.curve.q)
         D = self.curve.xTimesG(b)
 
-        # n = bitlength of q divided by 2
-        n = log(self.curve.q, 2)/2
+        # -----------------------------
+        # MQV
+        # -----------------------------
 
-        x = randrange(1, self.curve.q)
+        continues = False
 
-    def computeQ(self, x, staticPublicSelf, staticPublicOther, ephemeralPublicSelf, ephemeralPublicOther, staticPrivate, ephemeralPrivate):
-        # HOW POINT MOD 2^n
-        u = (self.curve.xTimesPoint(x, ephemeralPublicSelf))
+        while(not continues):
+            # n = bitlength of q divided by 2
+            n = int((len(bin(self.curve.q))-2)/2)
 
+            # Alice
 
-ecmqv = ECMQV()
-ecmqv.computeKeys()
+            uA = int((B.x % 2**n) + 2**n)
+
+            sA = int((b + uA*a) % self.curve.q)
+
+            vA = int((D.x % 2**n) + 2**n)
+
+            qA = self.curve.xTimesPoint(
+                sA, self.curve.pointAddition(D, self.curve.xTimesPoint(vA, C)))
+
+            # Bob
+
+            uB = int((D.x % 2**n) + 2**n)
+
+            sB = int((d + uB*c) % self.curve.q)
+
+            vB = int((B.x % 2**n) + 2**n)
+
+            qB = self.curve.xTimesPoint(
+                sB, self.curve.pointAddition(B, self.curve.xTimesPoint(vB, A)))
+
+            if(not qB.isPointOfInfinity() and not qA.isPointOfInfinity()):
+                continues = True
+        return qA
