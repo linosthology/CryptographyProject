@@ -14,6 +14,8 @@
         -   Zeigen das er nicht mehr möglich ist
     -   Reduktionsproblem möglich?
 - implement ECMQV
+- fix runtime 
+  - mod each component, not the end result
   
 ### DONE
 
