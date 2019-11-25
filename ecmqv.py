@@ -35,8 +35,9 @@ class ECMQV:
         # -----------------------------
 
         qA = Point()
+        qB = Point()
 
-        while(qA.isPointOfInfinity()):
+        while(qA.isPointOfInfinity() or qB.isPointOfInfinity() or qA != qB):
 
             # Alice
             b = randrange(1, self.curve.q)
@@ -55,29 +56,36 @@ class ECMQV:
 
             # Alice
 
-            uA = int((B.x % 2**n) + 2**n)
+            uA = (B.x % 2**n) + 2**n
 
-            sA = int((b + uA*a) % self.curve.q)
+            sA = (b + uA*a) % self.curve.q
 
-            vA = int((D.x % 2**n) + 2**n)
+            vA = (D.x % 2**n) + 2**n
 
             qA = self.curve.xTimesPoint(
                 sA, self.curve.pointAddition(D, self.curve.xTimesPoint(vA, C)))
 
             # Bob
 
-            uB = int((D.x % 2**n) + 2**n)
+            uB = (D.x % 2**n) + 2**n
 
-            sB = int((d + uB*c) % self.curve.q)
+            sB = (d + uB*c) % self.curve.q
 
-            vB = int((B.x % 2**n) + 2**n)
+            vB = (B.x % 2**n) + 2**n
 
             qB = self.curve.xTimesPoint(
                 sB, self.curve.pointAddition(B, self.curve.xTimesPoint(vB, A)))
 
-            print(qA)
-            print(qB)
-            print(qA == qB)
+            if(qA == qB):
+                print("\n\nthey are the same:" + qA == qB + "\n\n")
+            elif qA.isPointOfInfinity() and qB.isPointOfInfinity():
+                print("both poi")
+            elif qA.isPointOfInfinity():
+                print("qA is poi")
+            elif qB.isPointOfInfinity():
+                print("qB is poi")
+            else:
+                print("nothing works")
 
         return qA
 

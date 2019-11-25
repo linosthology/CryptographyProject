@@ -1,16 +1,16 @@
 '''
 elliptic curve
-    takes the following parameters on instantiation 
+    takes the following parameters on instantiation
         p -> mod for F
         a, b -> weierstrass equation coefficients
         G -> Generator
         q -> |G|
-    
+
     supports addition and duplication
-        xTimesG 
+        xTimesG
             takes an int
             returns the generator times the int
-        xTimesPoint 
+        xTimesPoint
             takes an int and a point
             returns the point times the int
 '''
@@ -47,6 +47,9 @@ class EllipticCurve:
         # generator
         self.G = Point(self.generatorX, self.generatorY)
 
+        if self.hasSinguarities():
+            print("the elliptic curve has singularities!")
+
     def __repr__(self):
 
         return (f"\n\ny^2 = x^3 + {self.a}x + {self.b} over F_{self.p} with <G> =\n{self.G.__repr__()},\n\nwhere |G| = {self.q}\n\n")
@@ -71,7 +74,8 @@ class EllipticCurve:
             inverse = getInverse(self.p, diviser)
             gradient = divident*inverse % self.p
 
-            x = turnPositive(self.p, (gradient ** 2 - P.x - Q.x) % self.p)
+            x = turnPositive(
+                self.p, ((gradient ** 2 % self.p) - P.x - Q.x) % self.p)
             y = turnPositive(self.p, ((gradient*(P.x-x)-P.y) % self.p))
 
             return Point(x, y)
@@ -91,39 +95,43 @@ class EllipticCurve:
             gradient = divident*inverse % self.p
 
             x = turnPositive(
-                self.p, (gradient ** 2 - P.x - P.x) % self.p)
+                self.p, ((gradient ** 2 % self.p) - P.x - P.x) % self.p)
             y = turnPositive(
                 self.p, ((gradient*(P.x - x)-P.y) % self.p))
 
             return Point(x, y)
 
     def xTimesG(self, times) -> Point:
+
         if times == 1:
             return self.G
 
-        timesInBinary = (bin(times))[2:]
-        sum = self.G
+        Q = Point()
+        N = self.G
 
-        for digit in timesInBinary:
+        timesInBinary = (bin(times))[2:]
+
+        for digit in reversed(timesInBinary):
             if digit == "1":
-                sum = self.pointAddition(sum, self.G)
-            else:
-                sum = self.pointDuplication(sum)
-        return sum
+                Q = self.pointAddition(Q, N)
+            N = self.pointDuplication(N)
+        return Q
 
     def xTimesPoint(self, times, P: Point) -> Point:
+
         if times == 1:
             return P
 
-        timesInBinary = (bin(times))[2:]
-        sum = P
+        Q = Point()
+        N = P
 
-        for digit in timesInBinary:
+        timesInBinary = (bin(times))[2:]
+
+        for digit in reversed(timesInBinary):
             if digit == "1":
-                sum = self.pointAddition(sum, P)
-            else:
-                sum = self.pointDuplication(sum)
-        return sum
+                Q = self.pointAddition(Q, N)
+            N = self.pointDuplication(N)
+        return Q
 
     def hasSinguarities(self):
         return True if (4*self.a**3+27*self.b**2) % self.p == 0 else False
