@@ -1,42 +1,33 @@
 from brainpoolP160r1 import BrainpoolP160r1
-from ecdh import ECDH
 from random import randrange
-from math import log
 from point import Point
 
 
 class ECMQV:
     def __init__(self):
         self.curve = BrainpoolP160r1()
-        self.ecdh = ECDH()
 
     def computeKeys(self):
 
         # -----------------------------
-        # ECDH -> Static Keys
+        # Static Keys
         # -----------------------------
-
-        # get ECDH parameters
-        ecdhParas = self.ecdh.computeKeys()
 
         # Alice
-        a = ecdhParas[1]
-        A = ecdhParas[2]
+        a = randrange(1, self.curve.q)
+        A = self.curve.xTimesG(a)
 
         # Bob
-        c = ecdhParas[3]
-        C = ecdhParas[4]
-
-        # sharedKey
-        K = ecdhParas[5]
-
-        # -----------------------------
-        # Ephemeral Keys
-        # -----------------------------
+        c = randrange(1, self.curve.q)
+        C = self.curve.xTimesG(c)
 
         qA = Point()
 
         while(qA.isPointOfInfinity()):
+
+            # -----------------------------
+            # Ephemeral Keys
+            # -----------------------------
 
             # Alice
             b = randrange(1, self.curve.q)
