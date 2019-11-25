@@ -41,11 +41,11 @@ class ECMQV:
 
             # Alice
             b = randrange(1, self.curve.q)
-            B = self.curve.xTimesG(a)
+            B = self.curve.xTimesG(b)
 
             # Bob
             d = randrange(1, self.curve.q)
-            D = self.curve.xTimesG(b)
+            D = self.curve.xTimesG(d)
 
             # -----------------------------
             # MQV
@@ -77,7 +77,7 @@ class ECMQV:
                 sB, self.curve.pointAddition(B, self.curve.xTimesPoint(vB, A)))
 
             if(qA == qB):
-                print("\n\nthey are the same:" + qA == qB + "\n\n")
+                print("\n\nthey are the same:" + str(qA == qB) + "\n\n")
             elif qA.isPointOfInfinity() and qB.isPointOfInfinity():
                 print("both poi")
             elif qA.isPointOfInfinity():
