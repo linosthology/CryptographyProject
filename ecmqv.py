@@ -2,6 +2,7 @@ from brainpoolP160r1 import BrainpoolP160r1
 from ecdh import ECDH
 from random import randrange
 from math import log
+from point import Point
 
 
 class ECMQV:
@@ -33,21 +34,22 @@ class ECMQV:
         # Ephemeral Keys
         # -----------------------------
 
-        # Alice
-        b = randrange(1, self.curve.q)
-        B = self.curve.xTimesG(a)
+        qA = Point()
 
-        # Bob
-        d = randrange(1, self.curve.q)
-        D = self.curve.xTimesG(b)
+        while(qA.isPointOfInfinity()):
 
-        # -----------------------------
-        # MQV
-        # -----------------------------
+            # Alice
+            b = randrange(1, self.curve.q)
+            B = self.curve.xTimesG(a)
 
-        continues = False
+            # Bob
+            d = randrange(1, self.curve.q)
+            D = self.curve.xTimesG(b)
 
-        while(not continues):
+            # -----------------------------
+            # MQV
+            # -----------------------------
+
             # n = bitlength of q divided by 2
             n = int((len(bin(self.curve.q))-2)/2)
 
@@ -73,6 +75,12 @@ class ECMQV:
             qB = self.curve.xTimesPoint(
                 sB, self.curve.pointAddition(B, self.curve.xTimesPoint(vB, A)))
 
-            if(not qB.isPointOfInfinity() and not qA.isPointOfInfinity()):
-                continues = True
+            print(qA)
+            print(qB)
+            print(qA == qB)
+
         return qA
+
+
+test = ECMQV()
+test.computeKeys()
