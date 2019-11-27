@@ -89,7 +89,7 @@ class EllipticCurve:
         elif P.y == 0:
             return Point()
         else:
-            divident = (3*(P.x**2) + self.a) % self.p
+            divident = (3*((P.x**2) % self.p) + self.a) % self.p
             diviser = 2 * P.y % self.p
             inverse = getInverse(self.p, diviser)
             gradient = divident*inverse % self.p
