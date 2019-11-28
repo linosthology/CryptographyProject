@@ -7,19 +7,25 @@ class ECMQV:
     def __init__(self):
         self.curve = BrainpoolP160r1()
 
-    def computeKeys(self):
+    def computeStaticKeys(self):
 
         # -----------------------------
         # Static Keys
         # -----------------------------
 
         # Alice
-        a = randrange(1, self.curve.q)
-        A = self.curve.xTimesG(a)
+        self.a = randrange(1, self.curve.q)
+        self.A = self.curve.xTimesG(self.a)
 
         # Bob
-        c = randrange(1, self.curve.q)
-        C = self.curve.xTimesG(c)
+        self.c = randrange(1, self.curve.q)
+        self.C = self.curve.xTimesG(self.c)
+
+    def computeSessionKeys(self):
+
+        if not hasattr(self, "a"):
+            return print(
+                "\n\nyou need to create static keys first!\nuse the function computeStaticKeys for that\n\n")
 
         qA = Point()
 
@@ -48,22 +54,22 @@ class ECMQV:
 
             uA = (B.x % 2**n) + 2**n
 
-            sA = (b + uA*a) % self.curve.q
+            sA = (b + uA * self.a) % self.curve.q
 
             vA = (D.x % 2**n) + 2**n
 
             qA = self.curve.xTimesPoint(
-                sA, self.curve.pointAddition(D, self.curve.xTimesPoint(vA, C)))
+                sA, self.curve.pointAddition(D, self.curve.xTimesPoint(vA, self.C)))
 
             # Bob
 
             uB = (D.x % 2**n) + 2**n
 
-            sB = (d + uB*c) % self.curve.q
+            sB = (d + uB*self.c) % self.curve.q
 
             vB = (B.x % 2**n) + 2**n
 
             qB = self.curve.xTimesPoint(
-                sB, self.curve.pointAddition(B, self.curve.xTimesPoint(vB, A)))
+                sB, self.curve.pointAddition(B, self.curve.xTimesPoint(vB, self.A)))
 
         return qA

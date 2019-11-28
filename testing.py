@@ -27,7 +27,9 @@ def timingComparison(n):
 
     start_time = time()
     for x in range(0, n, 1):
-        mqv.computeKeys()
+        if x == 0:
+            mqv.computeStaticKeys()
+        mqv.computeSessionKeys()
     timeMQV = (time() - start_time)
 
     # format computation times
