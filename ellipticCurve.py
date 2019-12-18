@@ -7,7 +7,7 @@ elliptic curve
         q -> |G|
 
     supports addition and duplication
-        xTimesG
+        xTimesP
             takes an int
             returns the generator times the int
         xTimesPoint
@@ -101,7 +101,7 @@ class EllipticCurve:
 
             return Point(x, y)
 
-    def xTimesG(self, times) -> Point:
+    def xTimesP(self, times) -> Point:
 
         if times == 1:
             return self.G

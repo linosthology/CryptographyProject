@@ -9,11 +9,11 @@ class ECDH:
     def computeKeys(self):
         # Alice
         a = randrange(1, self.curve.q)
-        A = self.curve.xTimesG(a)
+        A = self.curve.xTimesP(a)
 
         # Bob
         b = randrange(1, self.curve.q)
-        B = self.curve.xTimesG(b)
+        B = self.curve.xTimesP(b)
 
         # K's
         kA = self.curve.xTimesPoint(a, B)

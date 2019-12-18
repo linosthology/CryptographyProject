@@ -15,11 +15,11 @@ class ECMQV:
 
         # Alice
         self.a = randrange(1, self.curve.q)
-        self.A = self.curve.xTimesG(self.a)
+        self.A = self.curve.xTimesP(self.a)
 
         # Bob
         self.c = randrange(1, self.curve.q)
-        self.C = self.curve.xTimesG(self.c)
+        self.C = self.curve.xTimesP(self.c)
 
     def computeSessionKeys(self):
 
@@ -37,11 +37,11 @@ class ECMQV:
 
             # Alice
             b = randrange(1, self.curve.q)
-            B = self.curve.xTimesG(b)
+            B = self.curve.xTimesP(b)
 
             # Bob
             d = randrange(1, self.curve.q)
-            D = self.curve.xTimesG(d)
+            D = self.curve.xTimesP(d)
 
             # -----------------------------
             # MQV
